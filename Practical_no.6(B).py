@@ -1,0 +1,5 @@
+f = open("xyz.txt", "a+")
+f.write("\nPython is a user-friendly language.")
+f = open("xyz.txt", "r")
+print(f.read())
+f.close()
